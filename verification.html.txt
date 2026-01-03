@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Certificate Verification</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+        }
+        .card {
+            max-width: 600px;
+            margin: 50px auto;
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: green;
+            text-align: center;
+        }
+        .field {
+            margin: 10px 0;
+            font-size: 16px;
+        }
+        .label {
+            font-weight: bold;
+        }
+        .footer {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 13px;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <h2>✔ Certificate Verified</h2>
+
+    <div class="field"><span class="label">Certificate ID:</span> SCT/OCT25/5018</div>
+    <div class="field"><span class="label">Name:</span> KOMALI VAKADANI</div>
+    <div class="field"><span class="label">Track:</span> Python with Data Science</div>
+    <div class="field"><span class="label">College:</span> Acharya Nagarjuna University</div>
+    <div class="field"><span class="label">Date:</span> 10-Oct-2025</div>
+    <div class="field"><span class="label">Letter of Recommendation (LoR):</span> Yes</div>
+
+    <div class="footer">
+        This certificate has been successfully verified.<br>
+        For academic & seminar verification purposes only.
+    </div>
+</div>
+
+</body>
+</html>
